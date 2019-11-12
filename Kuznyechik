@@ -1,0 +1,3 @@
+It is C++ realization of block encruption algorithm, based on 
+Implementation of block cipher Kuznyechik, GOST R 34.12-2015, Author: Alexander Venedioukhin, dxdt.ru 31.05.2016
+Code need to be improved
