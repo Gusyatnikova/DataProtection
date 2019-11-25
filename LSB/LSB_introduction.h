@@ -18,3 +18,4 @@ void put_elem_cnt(vector<char>& bmp_data, size_t dataOffset, size_t size);
 bool get_bit(unsigned char byte, int position);
 bool get_bit_int(unsigned int num, int position);
 void set_bit(char& byte, bool bit, int position);
+void set_bit(int& elem, bool bit, int position);

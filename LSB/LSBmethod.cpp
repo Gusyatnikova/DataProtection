@@ -32,6 +32,7 @@ int main()
 			cout << "incorrect filename(s)";
 			return 0;
 		}
+		lsb_extra("out.txt", bmp_filename);
 	}
 	else {
 		if (lsb_extra(txt_filename, bmp_filename) != 0) {

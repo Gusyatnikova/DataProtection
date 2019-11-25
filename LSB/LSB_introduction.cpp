@@ -104,13 +104,32 @@ bool get_bit_int(unsigned int num, int position)
 	}
 }
 
-void set_bit(char& byte, bool bit, int position)
+void set_bit(char& byte, const bool bit, const int position)
 {
+	short pos = 7 - position;
 	if (bit == 0) {
-		byte &= ~(1 << position);
+		byte &= ~(0x01 << pos);
 	}
 	else {
-		byte |= (1 << position);
+		byte |= (0x01 << pos);
+	}
+}
+
+void set_bit(int & elem, const bool bit, const int position)
+{
+	//Test: does not work yet! char before == char after
+	int pos = 31 - position;
+	if (bit == 0) {
+		int before = elem;
+		elem &= ~(0x01 << pos);
+		int after = elem;
+		int test = 4;
+	}
+	else {
+		int before = elem;
+		elem |= (0x01 << pos);
+		int after = elem;
+		int test = 4;
 	}
 }
 
