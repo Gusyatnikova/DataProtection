@@ -1,7 +1,7 @@
-my_math.h contains an implementation of the fast modularization method
-Client_Diffie_Hellman.h(cpp), Server_Diffie_Hellman.h(cpp) containt an implementation of Diffie-Hellman protocol
-ElGamal.h(cpp) containt an implementation of Diffie-Hellman cipher
-
+1. my_math.h contains an implementation of the fast modularization method.
+2. Client_Diffie_Hellman.h(cpp), Server_Diffie_Hellman.h(cpp) containt an implementation of Diffie-Hellman protocol.
+3. ElGamal.h(cpp) containt an implementation of Diffie-Hellman cipher
+--------
 in main:
 1. comparing pow(a, b)mod p in a conventional and fast way
 2. server and client genereta keys using Diffie_Hellman protocol
